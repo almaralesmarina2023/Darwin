@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DsRecetasService } from '../ds-recetas.service';
+import { Recetas } from '../recetas.module';
 
 @Component({
   selector: 'app-listar-recetas',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class ListarRecetasComponent {
 
+  listadorecetas:Recetas[]=[]
+
+
+  constructor(private servicio: DsRecetasService){}
+  ngOnInit(){
+    this.listadorecetas=this.servicio.dsrecetas;
+
+  }
 }

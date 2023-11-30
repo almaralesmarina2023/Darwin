@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Recetas } from '../recetas.module';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-recetas',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./recetas.component.css']
 })
 export class RecetasComponent {
-  nombre:string="";
+  @Input() receta:Recetas=new Recetas()
+  @Input() indice:number=0;
+
+
 }
