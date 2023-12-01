@@ -1,5 +1,9 @@
 <div>
-  <a [routerLink]="['informacion',indice]">{{receta.nombre}}</a>
+  <div class="div_imagen">
+    <img [src]=receta.imagen id="imagen">
+    <a [routerLink]="['informacion',indice]">{{receta.nombre}}</a>
+  </div>
+
   <ul>
     <li *ngFor="let item of receta.ingredientes">{{item}}</li>
   </ul>

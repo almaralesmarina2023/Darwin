@@ -5,8 +5,8 @@ import { Recetas } from './recetas.module';
   providedIn: 'root'
 })
 export class DsRecetasService {
-receta1:Recetas=new Recetas("receta 1",["agua","azucar","frijoles"],"Batir bastante");
-receta2:Recetas=new Recetas("receta 2",["mermelada","azucar","quimbobo"],"Batir un poquito");
+receta1:Recetas=new Recetas("receta 1",["agua","azucar","frijoles"],"Batir bastante","./assets/fotografia-de-comida-platos7.jpg");
+receta2:Recetas=new Recetas("receta 2",["mermelada","azucar","quimbobo"],"Batir un poquito","./assets/fotografia-de-comida-platos7.jpg");
 
 dsrecetas:Recetas[]=[this.receta1 , this.receta2];
 

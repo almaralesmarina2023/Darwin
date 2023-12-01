@@ -1,0 +1,15 @@
+body{
+  margin-top: 80px;
+}
+#imagen{
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 10px solid black;
+}
+.principal{
+  display: flex;
+}
+
+.secundario{
+  margin-left: 100px;
+}
