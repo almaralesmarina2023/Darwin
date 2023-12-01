@@ -1,0 +1,20 @@
+<body>
+
+<div class="principal">
+  <div *ngFor="let item of listado, let indice=index" indice="indice" class="interior">
+      <div class="elemento">
+        <img [src]=item.imagen alt="imagen" >
+        {{item.nombre}}
+      </div>
+      <div class="opciones">
+        <a class="button eliminar" (click)="eliminar()">Eliminar</a>
+        <a class="button modificar" >Modificar</a>
+      </div>
+  </div>
+
+</div>
+  <div class="agregar">
+  <a href="" class="button agregar">Agregar Nueva Receta</a>
+
+  </div>
+</body>

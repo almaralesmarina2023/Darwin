@@ -1,3 +1,4 @@
+import { AdministracionComponent } from './administracion/administracion.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,6 +18,7 @@ import { QuienessomosComponent } from './quienessomos/quienessomos.component';
     InformacionComponent,
     ContactosComponent,
     QuienessomosComponent,
+    AdministracionComponent
   ],
   imports: [
     BrowserModule,

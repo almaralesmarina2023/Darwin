@@ -3,6 +3,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 71vh;
 }
 #imagen{
   width: 35vw;
@@ -27,6 +28,8 @@ body{
   margin-left: 100px;
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
+
 }
 
 .preparacion{

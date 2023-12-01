@@ -1,3 +1,4 @@
+import { AdministracionComponent } from './administracion/administracion.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,7 +14,7 @@ const appRoutes:Routes=[
   {path: 'Contacto', component:ContactosComponent},
   {path: 'quienes somos', component:QuienessomosComponent},
   {path: 'informacion/:id', component:InformacionComponent},
-  // {path: 'admin', component:AdminComponent},
+  {path: 'administracion', component:AdministracionComponent},
 
 ]
 
