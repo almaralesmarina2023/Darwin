@@ -9,7 +9,7 @@ img{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: max-content;
   width: 100%;
 }
 .agregar{

@@ -9,6 +9,7 @@ import { InformacionComponent } from './informacion/informacion.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactosComponent } from './contactos/contactos.component';
 import { QuienessomosComponent } from './quienessomos/quienessomos.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { QuienessomosComponent } from './quienessomos/quienessomos.component';
     InformacionComponent,
     ContactosComponent,
     QuienessomosComponent,
-    AdministracionComponent
+    AdministracionComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,

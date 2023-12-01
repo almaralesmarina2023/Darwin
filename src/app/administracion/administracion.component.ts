@@ -12,7 +12,7 @@ export class AdministracionComponent implements OnInit{
   listado:Recetas[]=[];
   @Input() indice:number=0;
   eliminar(){
-    this.listado
+    this.servicio.dsrecetas.splice(this.indice,1)
   }
   constructor(private servicio : DsRecetasService){}
   ngOnInit(): void {
