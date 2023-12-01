@@ -1,5 +1,5 @@
 <div>
-  <a [routerLink]="['',indice]">{{receta.nombre}}</a>
+  <a [routerLink]="['informacion',indice]">{{receta.nombre}}</a>
   <ul>
     <li *ngFor="let item of receta.ingredientes">{{item}}</li>
   </ul>

@@ -12,7 +12,7 @@ const appRoutes:Routes=[
   {path: '', component:ListarRecetasComponent},
   {path: 'Contacto', component:ContactosComponent},
   {path: 'quienes somos', component:QuienessomosComponent},
-  {path: ':id', component:InformacionComponent},
+  {path: 'informacion/:id', component:InformacionComponent},
 
 ]
 

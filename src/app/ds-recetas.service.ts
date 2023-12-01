@@ -13,5 +13,10 @@ dsrecetas:Recetas[]=[this.receta1 , this.receta2];
 agregar(receta:Recetas){
   this.dsrecetas.push(receta);
 }
+
+findreceta(index:number):Recetas{
+  return this.dsrecetas[index]
+}
+
   constructor() { }
 }
