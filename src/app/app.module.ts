@@ -16,7 +16,7 @@ import { QuienessomosComponent } from './quienessomos/quienessomos.component';
     RecetasComponent,
     InformacionComponent,
     ContactosComponent,
-    QuienessomosComponent
+    QuienessomosComponent,
   ],
   imports: [
     BrowserModule,
