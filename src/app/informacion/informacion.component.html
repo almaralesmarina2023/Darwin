@@ -2,11 +2,22 @@
 
 
 <div class="principal">
+<div class="secundario1">
   <img [src]=recetaActual.imagen id="imagen">
-<div class="secundario">
   <h1>{{recetaActual.nombre}}</h1>
-   <h2>{{recetaActual.ingredientes}}</h2>
-   <h2>{{recetaActual.preparacion}}</h2>
+</div>
+  <div class="secundario">
+    <div class="ingredientes">
+      <h2>Ingredientes</h2>
+      <ul>
+        <li *ngFor="let item of recetaActual.ingredientes">{{item}}</li>
+      </ul>
+    </div>
+    <div class="preparacion">
+      <h2>Forma de preparación</h2>
+      <p>{{recetaActual.preparacion}}</p>
+
+    </div>
 </div>
 
 </div>
