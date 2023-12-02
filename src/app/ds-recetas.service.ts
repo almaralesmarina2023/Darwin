@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Recetas } from './recetas.module';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +28,15 @@ modificarDs(receta:Recetas, indice:number){
   this.dsrecetas[indice].ingredientes=receta.ingredientes;
   this.dsrecetas[indice].preparacion=receta.preparacion;
 }
-  constructor() { }
+
+
+
+
+constructor(private route:ActivatedRoute, private router:Router){}
+volveradministracion(){
+    this.router.navigate(['administracion'])
+}
+volveinicio(){
+    this.router.navigate([''])
+}
 }

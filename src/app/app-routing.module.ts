@@ -7,6 +7,7 @@ import { ContactosComponent } from './contactos/contactos.component';
 import { QuienessomosComponent } from './quienessomos/quienessomos.component';
 import { InformacionComponent } from './informacion/informacion.component';
 import { ModificarComponent } from './modificar/modificar.component';
+import { AgregarComponent } from './agregar/agregar.component';
 
 
 
@@ -17,6 +18,7 @@ const appRoutes:Routes=[
   {path: 'informacion/:id', component:InformacionComponent},
   {path: 'administracion', component:AdministracionComponent},
   {path: 'modificar/:id', component:ModificarComponent},
+  {path: 'agregar', component:AgregarComponent},
 
 ]
 

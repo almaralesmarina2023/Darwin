@@ -22,7 +22,7 @@ export class ModificarComponent  implements OnInit{
       this.recetamodificada.preparacion=this.preparacion;
 
       this.servicio.modificarDs(this.recetamodificada,this.indice)
-      this.volverinicio();
+      this.servicio.volveradministracion();
   }
   agregaringrediente(){
     this.recetamodificada.ingredientes.push(this.nuevoingrediente)
@@ -36,7 +36,7 @@ export class ModificarComponent  implements OnInit{
     this.ingredientes=this.recetamodificada.ingredientes
     this.preparacion=this.recetamodificada.preparacion
   }
-  volverinicio(){
-      this.router.navigate(['administracion'])
-  }
+  // volverinicio(){
+  //     this.router.navigate(['administracion'])
+  // }
 }
