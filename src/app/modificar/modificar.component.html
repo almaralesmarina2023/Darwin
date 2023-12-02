@@ -18,7 +18,7 @@
           <input type="text" placeholder="Ingredientes" *ngFor="let item of recetamodificada.ingredientes" value={{item}}>
         </div>
         <div class="agregar_ingredientes">
-          <input type="text" placeholder="Nuevo Ingrediente" [(ngModel)]="nuevoingrediente">    <input type="submit" value="Agregar nuevo ingrediente" (click)="agregaringrediente()">
+          <input type="text" placeholder="Nuevo Ingrediente" [(ngModel)]="nuevoingrediente">    <input type="submit" class="btn btn-outline-primary" value="Agregar nuevo ingrediente" (click)="agregaringrediente()">
 
         </div>
       </div>
@@ -27,6 +27,6 @@
 
 
   </div>
-  <input type="submit" value="Modificar Receta" (click)="modificar()" class="bagg">
+  <input type="submit" value="Modificar Receta" (click)="modificar()" class="bagg btn btn-outline-primary">
 
 </body>

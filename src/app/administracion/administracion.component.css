@@ -49,7 +49,7 @@ img{
   display: flex;
 }
 .button{
-  border: 1px solid salmon;
+  border: 1px solid #5B6EFD;
   border-radius: 30px;
   padding: 7px;
   cursor: pointer;
