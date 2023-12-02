@@ -1,0 +1,10 @@
+<input type="text" placeholder="nombre" [(ngModel)]="nombre"> <br>
+
+<input type="text" placeholder="Ingredientes" *ngFor="let item of recetamodificada.ingredientes" value={{item}}> <br>
+
+
+<input type="text" placeholder="Nuevo Ingrediente" [(ngModel)]="nuevoingrediente">    <input type="submit" value="Agregar nuevo ingrediente" (click)="agregaringrediente()"><br>
+
+
+<input type="text" placeholder="preparacion" [(ngModel)]="preparacion"><br>
+<input type="submit" value="Modificar Receta" (click)="modificar()">

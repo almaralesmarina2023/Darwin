@@ -9,7 +9,9 @@ import { InformacionComponent } from './informacion/informacion.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactosComponent } from './contactos/contactos.component';
 import { QuienessomosComponent } from './quienessomos/quienessomos.component';
-import { PruebaComponent } from './prueba/prueba.component';
+import { ModificarComponent } from './modificar/modificar.component';
+import { FormsModule } from '@angular/forms';
+import { AgregarComponent } from './agregar/agregar.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,12 @@ import { PruebaComponent } from './prueba/prueba.component';
     ContactosComponent,
     QuienessomosComponent,
     AdministracionComponent,
-    PruebaComponent
+    ModificarComponent,
+    AgregarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

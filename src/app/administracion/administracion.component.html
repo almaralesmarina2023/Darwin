@@ -8,7 +8,7 @@
       </div>
       <div class="opciones">
         <a class="button eliminar" (click)="eliminar()">Eliminar</a>
-        <a class="button modificar" >Modificar</a>
+        <a class="button modificar" [routerLink]="['/modificar', indice]">Modificar</a>
       </div>
   </div>
 
@@ -18,3 +18,4 @@
 
   </div>
 </body>
+<router-outlet></router-outlet>

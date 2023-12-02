@@ -34,6 +34,8 @@ font-weight: 600;
 #imagen{
   width: 200px;
   border-radius: 30px;
+  transition: all ease 500ms;
+
 }
 
 .ref:hover img{

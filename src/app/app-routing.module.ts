@@ -6,6 +6,7 @@ import { ListarRecetasComponent } from './listar-recetas/listar-recetas.componen
 import { ContactosComponent } from './contactos/contactos.component';
 import { QuienessomosComponent } from './quienessomos/quienessomos.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { ModificarComponent } from './modificar/modificar.component';
 
 
 
@@ -15,6 +16,7 @@ const appRoutes:Routes=[
   {path: 'quienes somos', component:QuienessomosComponent},
   {path: 'informacion/:id', component:InformacionComponent},
   {path: 'administracion', component:AdministracionComponent},
+  {path: 'modificar/:id', component:ModificarComponent},
 
 ]
 

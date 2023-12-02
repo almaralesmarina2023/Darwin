@@ -14,6 +14,9 @@ export class AdministracionComponent implements OnInit{
   eliminar(){
     this.servicio.dsrecetas.splice(this.indice,1)
   }
+  modificar(){
+
+  }
   constructor(private servicio : DsRecetasService){}
   ngOnInit(): void {
     this.listado=this.servicio.recetas();

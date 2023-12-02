@@ -22,6 +22,10 @@ findreceta(index:number):Recetas{
 recetas():Recetas[]{
   return this.dsrecetas
 }
-
+modificarDs(receta:Recetas, indice:number){
+  this.dsrecetas[indice].nombre=receta.nombre;
+  this.dsrecetas[indice].ingredientes=receta.ingredientes;
+  this.dsrecetas[indice].preparacion=receta.preparacion;
+}
   constructor() { }
 }
