@@ -7,7 +7,7 @@
         {{item.nombre}}
       </div>
       <div class="opciones">
-        <a class="button eliminar" (click)="eliminar()">Eliminar</a>
+        <a class="button eliminar" (click)="eliminar(indice)">Eliminar</a>
         <a class="button modificar" [routerLink]="['/modificar', indice]">Modificar</a>
       </div>
   </div>

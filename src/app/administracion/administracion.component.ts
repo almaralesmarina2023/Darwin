@@ -11,8 +11,8 @@ export class AdministracionComponent implements OnInit{
 
   listado:Recetas[]=[];
   @Input() indice:number=0;
-  eliminar(){
-    this.servicio.dsrecetas.splice(this.indice,1)
+  eliminar(i:number){
+    this.servicio.dsrecetas.splice(i,1)
   }
   modificar(){
 
