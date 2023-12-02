@@ -43,8 +43,3 @@ Thumbs.db
 .vscode/
  package.json
 
-        tsconfig.app.json
-        tsconfig.json
-        tsconfig.spec.json
-         .editorconfig
-        .vscode/
