@@ -3,7 +3,8 @@
 <div class="principal">
   <div *ngFor="let item of listado, let indice=index" indice="indice" class="interior">
       <div class="elemento">
-        <img [src]=item.imagen alt="imagen" >
+        <a [routerLink]="['/informacion',indice]" class="ref">
+        <img [src]=item.imagen alt="imagen" > </a>
         {{item.nombre}}
       </div>
       <div class="opciones">
